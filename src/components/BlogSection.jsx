@@ -93,7 +93,7 @@ function BlogSection() {
       <h2 className="text-[56px] leading=[42px] text-[#0E2368] font-bold max-md:text-[28px] max-md:leading-[54px] mb-16 max-md:mb-10">
         Latest Articles
       </h2>
-      <div className="flex justify-between flex-wrap">
+      <div className="flex justify-between flex-wrap max-sm:justify-center">
         {blogData.slice(startIndex, endIndex).map((blog, index) => (
           <BlogCard
             key={index}
